@@ -1,0 +1,28 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 100%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 100%;
+  }
+
+  #portfolio {
+    width: 100%;
+  }
+}
+
+html, body {
+  width: 100vw;
+  overflow-x: hidden; /* Prevents horizontal scrollbar due to extra pixels */
+  margin: 0;
+  padding: 0;
+  /* Below lines are optional, for ensuring that content stretches full width */
+  max-width: 100vw;
+  box-sizing: border-box;
+}
